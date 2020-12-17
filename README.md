@@ -62,6 +62,7 @@ $ export CODE="<YOUR_AUTHORIZATION_CODE>
 $ make run
 ```
 
+### Reports
 
 You will see two reports:
 
