@@ -1,0 +1,11 @@
+version: "3.2"
+services:
+  tink-api:
+    build:
+      context: .
+    image: tink-api-python
+    container_name: tink-api
+    environment:
+      - CLIENT_ID=${CLIENT_ID}
+      - CLIENT_SECRET=${CLIENT_SECRET}
+      - CODE=${CODE}
