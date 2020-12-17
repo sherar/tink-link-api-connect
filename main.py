@@ -108,9 +108,9 @@ def get_access_token():
         print(f"Please make sure your CODE, CLIENT_ID and CLIENT_SECRET are valid ")
         raise SystemExit()
 
-    jsonData = response.json()
+    json_data = response.json()
     global ACCESS_TOKEN
-    ACCESS_TOKEN = jsonData["access_token"]
+    ACCESS_TOKEN = json_data["access_token"]
     print("access token OK")
 
 
