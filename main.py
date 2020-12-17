@@ -55,12 +55,12 @@ def get_last_unique_transactions(months=6):
     Default months set to 6
     """
 
-    startDate = get_current_date()
-    endDate = get_relative_delta_date_in_months(months)
+    start_date = get_current_date()
+    end_date = get_relative_delta_date_in_months(months)
     transactions = []
 
     url = BASE_URL + "/api/v1/search"
-    params = {"startDate": startDate, "endDate": endDate}
+    params = {"startDate": start_date, "endDate": end_date}
     headers = {"Authorization": "Bearer " + ACCESS_TOKEN}
 
     try:
