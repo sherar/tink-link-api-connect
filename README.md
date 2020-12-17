@@ -65,11 +65,9 @@ $ make run
 
 You will see two reports:
 
-Showing last 10 transactions
-![Alt text](img/task1.png?raw=true "Showing last 10 transactions")
+![Alt text](img/transactions_limit.png "Showing last 10 transactions")
 
-Showing unique transactions in the last 3 months
-![Alt text](img/task2.png?raw=true "Showing unique transactions in the last 3 months")
+![Alt text](img/transactions_unique.png "Showing unique transactions in the last 3 months")
 
 
 # Considerations and next steps:
