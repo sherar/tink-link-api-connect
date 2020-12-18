@@ -1,6 +1,6 @@
 # TinkLink connect
 
-This is a python example that demonstrates how to connect to Tink API to fetch users' account and transaction data.
+This is a python example that demonstrates how to connect to Tink API to fetch users transaction data.
 
 ## Installation
 
@@ -36,7 +36,7 @@ Prerequisites:
 $ CLIENT_ID=<YOUR_CLIENT_ID> CLIENT_SECRET=<YOUR_CLIENT_SECRET> CODE=<YOUR_USER_AUTHORIZATION_CODE> docker-compose up --build
 ```
 
-## Option 2: Running the app locally
+## Option 2: Running it locally
 
 Prerequisites:
 - Python >= 3.7 installed
