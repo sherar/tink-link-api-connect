@@ -1,3 +1,5 @@
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/sherar/tink-link-api-connect/badge)](https://securityscorecards.dev/viewer/?uri=github.com/sherar/tink-link-api-connect)
+
 # TinkLink connect
 
 This is a python example that demonstrates how to connect to Tink API to fetch users transaction data.
